@@ -247,15 +247,53 @@ section {
 
 
 
-  <iframe
-  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13803.527366621238!2d-95.4672972!3d30.126194400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1585899917384!5m2!1sen!2sus"
-width="600"
- height="450" 
- frameborder="0" 
- style="border:0;"
-  allowfullscreen="
-  " aria-hidden="false" 
-  tabindex="0"></iframe>
+  .section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #024e76;
+  }
 
+  /* REACH OUT STYLES START */
+.contact {
+    text-align: center;
+    background: #024e76;
+  }
 
+  .contact h2 {
+    color: #fce138;
+  }
+
+  .contact-info iframe {
+    width: 400px;
+    height: 400px;
+  }
+
+  .contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+  }
+
+  .contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+  }
   
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .contact-info a {
+    color: #fce138;
+  }
+  
+  /* REACH OUT STYLES END */
