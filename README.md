@@ -11,4 +11,4 @@ A website that offers fitness training services.
 https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Vanessa Z. Gonzales
+Made with ❤️ by Vanessa Gonzales
