@@ -366,6 +366,39 @@ header h2 {
   /* REACH OUT STYLES END */
 
 
+
+.service-grid-item {
+    background-color: orange;
+    border: solid;
+    padding: 1em;
+    color: black;
+}
+
+  .service-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(4, minmax(25px, auto));
+  }
+
+  .box1 {
+    grid-column: 1/ span 1; 
+    grid-row: 1/ span 2; 
+  }
+
+  .box2 {
+    grid-column: 3/4; 
+    grid-row: 1/-1; 
+  }
+
+  .box3 {
+    grid-column: 2/ span 2; 
+    grid-row: 3/ span 1; 
+  }
+
+  .grid-container {
+    place-items: <align-items>  <justify-items>;
+  }
+  
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 header {
@@ -480,3 +513,4 @@ flex: 0 100%;
 .contact-form {
 order: 3;
 }
+
