@@ -38,9 +38,13 @@ header nav {
     display: right;
     margin: 7px 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     float: right;
 >>>>>>> master
+=======
+    float: right;
+>>>>>>> feature/hero-text
 }
 
 header nav ul li {
@@ -93,7 +97,11 @@ footer a {
 
 /* Hero Style Start */
 .hero {
+<<<<<<< HEAD
     background-image: url("../images/hero-bg.jpg");
+=======
+    background-image: url("../images/flipped-hero-image.jpg");
+>>>>>>> feature/hero-text
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -222,6 +230,7 @@ footer a {
     background: #024e76;
     color: #fce138;
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 
 
@@ -258,6 +267,8 @@ footer a {
   
 
 =======
+=======
+>>>>>>> feature/hero-text
     overflow: auto;
   }
 
@@ -270,7 +281,10 @@ footer a {
 .trainer p{
   float: right;
 }
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> feature/hero-text
 
   .trainer-bio {
     padding: 35px;
@@ -358,6 +372,7 @@ footer a {
   }
   
   /* REACH OUT STYLES END */
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -374,3 +389,5 @@ footer a {
 =======
 >>>>>>> master
 
+=======
+>>>>>>> feature/hero-text
