@@ -18,6 +18,7 @@ background-repeat: no-repeat;
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+<<<<<<< HEAD
   }
 
 
@@ -27,6 +28,19 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
+=======
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #fce138;
+>>>>>>> feature/flexbox
   }
 
   header a {
@@ -34,6 +48,7 @@ header h1 {
     color: #fce138;
   }
 
+<<<<<<< HEAD
 header nav {
     display: right;
     margin: 7px 0;
@@ -55,6 +70,20 @@ header nav ul li {
     display: inline;
   }
 
+=======
+  header nav {
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  } 
+
+>>>>>>> feature/flexbox
 
   header nav ul li a {
     margin: 0 30px;
@@ -73,8 +102,18 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+<<<<<<< HEAD
   }
 
+=======
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+
+
+>>>>>>> feature/flexbox
   footer h2 {
     display: inline;
     color: #024e76;
@@ -103,6 +142,7 @@ footer a {
 .hero {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url("../images/hero-bg.jpg");
 =======
     background-image: url("../images/flipped-hero-image.jpg");
@@ -114,18 +154,32 @@ footer a {
     background-size: cover;
     background-position: center;
     position: relative;
+=======
+    background-image: url("../images/flipped-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+>>>>>>> feature/flexbox
   }
 
 /*Hero Style End*/
 .hero-form {
     background-color: #fce138;
     padding: 20px;
+<<<<<<< HEAD
     width: 500px;
     color: #024e76;
     border: solid 3px #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px;
+=======
+    color: #024e76;
+    border: solid 3px #024e76;
+    margin: 3.5%;
+>>>>>>> feature/flexbox
   }
 
 .hero-form h3 {
@@ -164,12 +218,36 @@ footer a {
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
 
 .intro {
     text-align: center;
   }
 
 
+=======
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+    width: 40%;
+    margin: 3.5%;
+  }
+
+
+
+
+
+>>>>>>> feature/flexbox
 .intro p {
     /* add this alongside your other declarations */
     margin: 0 auto;
@@ -181,20 +259,31 @@ footer a {
 }
 
 
+<<<<<<< HEAD
 .steps {
     background: var(--primary-color);
     text-align: center;
 }
 
+=======
+>>>>>>> feature/flexbox
 
 
 .section-title {
     font-size: 55px;
     color: #024e76;
+<<<<<<< HEAD
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
+=======
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+>>>>>>> feature/flexbox
   }
 
 .primary-border{
@@ -206,6 +295,7 @@ footer a {
 }
 
 
+<<<<<<< HEAD
 .steps div {
     margin-bottom: 80px;
   }
@@ -281,17 +371,90 @@ footer a {
 =======
 >>>>>>> feature/contact-form
     overflow: auto;
+=======
+  .step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+  }
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+    flex: 1 30%;
+  }
+
+  .step-info {
+   flex: 2 70%;
+   flex-wrap: wrap;
+   align-items: center;
+   display: flex;
+  }
+
+  .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+
+  .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+
+  .step-text {
+    flex: 12;
+  }
+
+  .step-img img {
+    max-width: 100%;
+  }
+
+
+  .trainer {
+    flex: 1;
+    margin: 20px;
+    background: #024e76;
+    color: #fce138;
+
+  }
+
+
+  .trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+>>>>>>> feature/flexbox
   }
 
 
 .trainer img {
+<<<<<<< HEAD
   width: 35%;
   float: left;
+=======
+  width: 100%;
+>>>>>>> feature/flexbox
 }
 
 .trainer p{
   float: right;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> master
@@ -304,6 +467,12 @@ footer a {
     padding: 35px;
     float: left;
     width: 65%;
+=======
+
+  .trainer-bio {
+    padding: 25px;
+    line-height: 1.3;
+>>>>>>> feature/flexbox
   }
 
   .text-left {
@@ -314,19 +483,32 @@ footer a {
     text-align: right;
   }
   .trainer-bio h3 {
+<<<<<<< HEAD
     font-size: 32px;
     margin-bottom: 8px;
+=======
+    font-size: 28px;
+>>>>>>> feature/flexbox
   }
   
   .trainer-bio h4 {
     font-weight: lighter;
+<<<<<<< HEAD
     font-size: 26px;
     margin-bottom: 25px;
+=======
+    font-size: 22px;
+    margin-bottom: 15px;
+>>>>>>> feature/flexbox
   }
   
   .trainer-bio p {
     font-size: 17px;
+<<<<<<< HEAD
     line-height: 1.3;
+=======
+
+>>>>>>> feature/flexbox
   }
 
 
@@ -343,7 +525,10 @@ footer a {
 
 /* REACH OUT STYLES START */
 .contact {
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> feature/flexbox
     background: #024e76;
   }
 
@@ -354,12 +539,17 @@ footer a {
 
 
   .contact-info iframe {
+<<<<<<< HEAD
     width: 400px;
+=======
+
+>>>>>>> feature/flexbox
     height: 400px;
   }
 
 
   .contact-info div {
+<<<<<<< HEAD
     width: 410px;
     display: inline-block;
     vertical-align: top;
@@ -368,6 +558,22 @@ footer a {
     color: white;
   }
 
+=======
+    color: white;
+  }
+
+  .contact-info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+
+>>>>>>> feature/flexbox
 
   .contact-info h3 {
     color: #fce138;
@@ -377,7 +583,11 @@ footer a {
   .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 16px;
+>>>>>>> feature/flexbox
     font-style: normal;
   }
   
@@ -385,6 +595,7 @@ footer a {
     color: #fce138;
   }
   
+<<<<<<< HEAD
 <<<<<<< HEAD
   /* REACH OUT STYLES END */
 <<<<<<< HEAD
@@ -409,3 +620,37 @@ footer a {
 =======
   /* REACH OUT STYLES END */
 >>>>>>> feature/contact-form
+=======
+
+
+  /* REACH OUT STYLES END */
+
+
+  .flex-row {
+    display: flex;
+  }
+
+
+  .contact-form input, .contact-form textarea {
+     
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px
+
+  }
+
+  .contact-form button {
+      width: 100%;
+      border: none;
+      background: #fce138;
+      color: #024e76;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 16px;
+  }
+>>>>>>> feature/flexbox
