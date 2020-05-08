@@ -37,6 +37,7 @@ header h1 {
 header nav {
     display: right;
     margin: 7px 0;
+    float: right;
 }
 
 header nav ul li {
