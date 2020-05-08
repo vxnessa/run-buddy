@@ -39,12 +39,16 @@ header nav {
     margin: 7px 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     float: right;
 >>>>>>> master
 =======
     float: right;
 >>>>>>> feature/hero-text
+=======
+    float: right;
+>>>>>>> feature/contact-form
 }
 
 header nav ul li {
@@ -98,10 +102,14 @@ footer a {
 /* Hero Style Start */
 .hero {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url("../images/hero-bg.jpg");
 =======
     background-image: url("../images/flipped-hero-image.jpg");
 >>>>>>> feature/hero-text
+=======
+    background-image: url("../images/flipped-hero-image.jpg");
+>>>>>>> feature/contact-form
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -231,6 +239,7 @@ footer a {
     color: #fce138;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 
 
@@ -269,6 +278,8 @@ footer a {
 =======
 =======
 >>>>>>> feature/hero-text
+=======
+>>>>>>> feature/contact-form
     overflow: auto;
   }
 
@@ -282,9 +293,12 @@ footer a {
   float: right;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> feature/hero-text
+=======
+>>>>>>> feature/contact-form
 
   .trainer-bio {
     padding: 35px;
@@ -371,6 +385,7 @@ footer a {
     color: #fce138;
   }
   
+<<<<<<< HEAD
   /* REACH OUT STYLES END */
 <<<<<<< HEAD
 
@@ -391,3 +406,6 @@ footer a {
 
 =======
 >>>>>>> feature/hero-text
+=======
+  /* REACH OUT STYLES END */
+>>>>>>> feature/contact-form

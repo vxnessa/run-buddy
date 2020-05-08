@@ -1,54 +1,7 @@
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:assets/css/secondary-style.css
->>>>>>> feature/hero-text
 .hero {
     background-position: bottom;
     height: auto;
     text-align: center;
-<<<<<<< HEAD
-    margin-bottom: 60px;
-  }
-
-
-
-
-  .page-title {
-      display: inline-block;
-      color: #fce138;
-      border-bottom: 4px solid #fce138;
-      padding: 0 80px 15px 80px;
-      font-weight: normal;
-      font-style: italic;
-      text-align: center;
-  }
-
-  .secondary-content {
-      width: 80%;
-      margin: center;
-      color: #024e76;
-  }
-
-  .secondary-content h3 {
-      font-size: 25px;
-      margin: 20px 0 20px 0;
-  }
-
-  .secondary-content p {
-      font-size: 16px;
-      line-height: 1.5;
-      margin: 20px 0 20px 0;
-}
-
-.secondary-content ul {
-    margin: 15px 20px 15px 20px;
-}
-
-.secondary-content li {
-    color: #39a6b2;
-    margin: 10px 0 10px 0
-}
-=======
     margin-bottom: 40px;
   }
 
@@ -88,61 +41,4 @@
 .secondary-content li{
     color: #39a6b2;
     margin: 10px 0px 10px 0px;
-========
-
-  /* these two colors will override the ones above in .hero */
-  .hero-secondary {
-    background-color: black;
-    color: red;
-  }
-
-.hero {
-    background-position: bottom;
-    height: auto;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-
-  
-
-.page-title {
-    color: #fce138;
-    display: inline-block;
-    border-bottom: 4x solid #fce138;
-    padding: 0 80px 15px 80px;
-    font-weight: normal;
-    font-size: 42px;
-    font-style: italic;
-
 }
-
-.secondary-content {
-    width: 80%;
-    margin: auto;
-    color: #024e76;
-}
-
-
-.secondary-content h3 {
-    font-size: 25px;
-    margin: 20px 0px 20px 0px
-}
-
-.secondary-content p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 20px 0px 20px 0px   
-   }
-
-
-   .secondary-content ul{
-    margin: 15px 20px 15px 20px;
-}
-
-.secondary-content li{
-    color: #39a6b2;
-    margin: 10px 0px 10px 0px;
->>>>>>>> feature/hero-text:assets/secondary-style.css
-}
->>>>>>> feature/hero-text
