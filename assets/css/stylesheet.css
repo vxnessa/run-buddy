@@ -4,6 +4,7 @@
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
   }
+<<<<<<< HEAD
 
   
 body {
@@ -17,30 +18,62 @@ background-repeat: no-repeat;
 
 /* apply styles to <header> */
 header {
+=======
+  
+  
+  body {
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*applly style to <header>*/
+  /* Applies 20px to the top and bottom, then 35px to the left and right */
+  }
+  
+  /* apply styles to <header> */
+  header {
+>>>>>>> feature/grid
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
 
 
+=======
+  
+  
+>>>>>>> feature/grid
   header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
     color: #fce138;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> feature/grid
   header a {
     text-decoration: none;
     color: #fce138;
   }
+<<<<<<< HEAD
 
   header nav {
     margin: 7px 0;
   }
 
+=======
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+>>>>>>> feature/grid
   header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -48,14 +81,20 @@ header {
     align-items: center;
     list-style: none;
   } 
+<<<<<<< HEAD
 
 
+=======
+  
+  
+>>>>>>> feature/grid
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 22px;
   }
   
+<<<<<<< HEAD
 * {
       margin: 0;
       padding: 0;
@@ -100,23 +139,74 @@ footer a {
 
 /* Hero Style Start */
 .hero {
+=======
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  
+  
+  
+  footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+  }
+  
+  footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+  }
+  
+  footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+  }
+  
+  footer a {
+  color: var(--secondary-color);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Hero Style Start */
+  .hero {
+    align-items: flex-start;
+>>>>>>> feature/grid
     background-image: url("../images/flipped-hero-image.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+<<<<<<< HEAD
     align-items: flex-start;
   }
 
 /*Hero Style End*/
 .hero-form {
+=======
+  }
+  
+  /*Hero Style End*/
+  .hero-form {
+>>>>>>> feature/grid
     background-color: #fce138;
     padding: 20px;
     color: #024e76;
     border: solid 3px #024e76;
     margin: 3.5%;
   }
+<<<<<<< HEAD
 
 .hero-form h3 {
     font-size: 24px;
@@ -129,6 +219,21 @@ footer a {
 
 
 .form-input {
+=======
+  
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  
+  }
+  
+  .hero-form p {
+    margin: 5px 0 15px 0; 
+  }
+  
+  
+  .form-input {
+>>>>>>> feature/grid
     border: 1px solid var(--secondary-color);
     display: block;
     padding: 7px 15px;
@@ -137,6 +242,7 @@ footer a {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+<<<<<<< HEAD
 
 }
 
@@ -146,15 +252,32 @@ footer a {
 }
 
 .hero-form button {
+=======
+  
+  }
+  
+  
+  .hero-form label {
+    margin: 0 5px;
+  }
+  
+  .hero-form button {
+>>>>>>> feature/grid
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
+<<<<<<< HEAD
 }
 
 .hero-cta {
+=======
+  }
+  
+  .hero-cta {
+>>>>>>> feature/grid
     width: 35%;
     text-align: right;
     margin: 3.5%;
@@ -162,13 +285,20 @@ footer a {
     font-size: 18px;
     line-height: 1.2;
   }
+<<<<<<< HEAD
 
+=======
+  
+  
+  
+>>>>>>> feature/grid
   .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
     width: 40%;
     margin: 3.5%;
+<<<<<<< HEAD
   }
 
 
@@ -176,6 +306,17 @@ footer a {
 
 
 .intro p {
+=======
+    text-align: justify;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  
+  .intro p {
+>>>>>>> feature/grid
     /* add this alongside your other declarations */
     margin: 0 auto;
     line-height: 1.7;
@@ -183,6 +324,7 @@ footer a {
     width: 80%;
     font-size: 20px;
     text-align: center;
+<<<<<<< HEAD
 }
 
 
@@ -257,15 +399,76 @@ footer a {
   }
 
 
+=======
+  }
+  
+  
+  
+  .steps {
+  background: var(--primary-color);
+  text-align: center;
+  }
+  
+  
+  
+  .section-title {
+  font-size: 48px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+  }
+  
+  .primary-border{
+  border-color: var(--primary-color);
+  }
+  
+  .secondary-border {
+  border-color: var(--tertiary-color);
+  }
+  
+  
+  .steps div {
+  margin-bottom: 80px;
+  }
+  
+  .steps img {
+  width: 15%;
+  margin: 10px 0;
+  }
+  
+  
+  .steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+  }
+  
+  .steps p {
+  color: #39a6b2;
+  font-size: 23px;
+  }
+  
+  
+  
+>>>>>>> feature/grid
   .trainer {
     flex: 1;
     margin: 20px;
     background: #024e76;
     color: #fce138;
+<<<<<<< HEAD
 
   }
 
 
+=======
+  
+  }
+  
+  
+>>>>>>> feature/grid
   .trainers {
     width: 100%;
     margin: 0 auto;
@@ -274,6 +477,7 @@ footer a {
     justify-content: space-around;
     
   }
+<<<<<<< HEAD
 
 
 .trainer img {
@@ -284,11 +488,27 @@ footer a {
   float: right;
 }
 
+=======
+  
+  
+  .trainer img {
+  width: 100%;
+  }
+  
+  .trainer p{
+  float: right;
+  }
+  
+>>>>>>> feature/grid
   .trainer-bio {
     padding: 25px;
     line-height: 1.3;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> feature/grid
   .text-left {
     text-align: left;
   }
@@ -308,11 +528,19 @@ footer a {
   
   .trainer-bio p {
     font-size: 17px;
+<<<<<<< HEAD
 
   }
 
 
 
+=======
+  
+  }
+  
+  
+  
+>>>>>>> feature/grid
   .section-title {
     font-size: 55px;
     display: inline-block;
@@ -321,6 +549,7 @@ footer a {
     margin-bottom: 35px;
     color: #024e76;
   }
+<<<<<<< HEAD
 
 
 /* REACH OUT STYLES START */
@@ -344,18 +573,54 @@ footer a {
     color: white;
   }
 
+=======
+  
+  
+  /* REACH OUT STYLES START */
+  .contact {
+  text-align: center;
+  background: #024e76;
+  }
+  
+  
+  .contact h2 {
+  color: #fce138;
+  }
+  
+  
+  
+  .contact-info iframe {
+  
+    height: 400px;
+  }
+  
+  
+  .contact-info div {
+    color: white;
+  }
+  
+>>>>>>> feature/grid
   .contact-info {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> feature/grid
   .contact-info > * {
     flex: 1;
     margin: 15px;
   }
+<<<<<<< HEAD
 
 
+=======
+  
+  
+>>>>>>> feature/grid
   .contact-info h3 {
     color: #fce138;
     font-size: 32px;
@@ -372,6 +637,7 @@ footer a {
     color: #fce138;
   }
   
+<<<<<<< HEAD
 
 
   /* REACH OUT STYLES END */
@@ -382,6 +648,18 @@ footer a {
   }
 
 
+=======
+  
+  
+  /* REACH OUT STYLES END */
+  
+  
+  .flex-row {
+    display: flex;
+  }
+  
+  
+>>>>>>> feature/grid
   .contact-form input, .contact-form textarea {
      
     border: 1px solid #024e76;
@@ -392,9 +670,15 @@ footer a {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px
+<<<<<<< HEAD
 
   }
 
+=======
+  
+  }
+  
+>>>>>>> feature/grid
   .contact-form button {
       width: 100%;
       border: none;
@@ -405,6 +689,7 @@ footer a {
       font-size: 16px;
   }
 
+<<<<<<< HEAD
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -523,3 +808,199 @@ footer a {
 
 
   }
+=======
+        /* SERVICE STYLES BEGIN */
+        .services {
+            background: #fce138; 
+          }
+          
+          .service-grid-wrapper {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+          }
+          
+          .service-grid-container {
+            background: lightyellow;
+            width: 80%;
+            display: grid;
+            /* repeat(iterator, size) */
+            grid-template-columns: 1fr repeat(2, 4fr);
+            grid-template-rows: repeat(5, 1fr) 2fr;
+            border: 2px solid #024e76;
+            color:  #024e76;
+            font-size: 1.2rem;
+          }
+        
+          .service-grid-item {
+            padding: 15px 0;
+            border: 2px solid #024e76;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+          }
+        
+        /* specific match */
+        .service-grid-item.basic {
+            grid-column: 2 / span 1;
+          }
+        
+          .service-grid-item.both {
+            grid-column: 2 / span 2;
+          }
+        
+          .service-grid-item.cancel {
+            writing-mode: vertical-lr;
+            grid-column: 1;
+            grid-row: 1 / -1;
+            transform: rotate(180deg);
+        
+          }
+        
+        
+          .grid-head, .grid-price, .service-grid-item.cancel {
+            font-size: 1.5rem;
+            font-weight: bold;
+          }
+
+
+
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+      header {
+          padding-bottom: 0;
+          justify-content: center;
+        }
+      
+        header h1 {
+          width: 100%;
+          text-align: center;
+        }
+      
+        header nav ul {
+          margin-top: 20px;
+          width: 100%;
+          justify-content: center;
+        }
+      
+        header nav ul li a {
+          font-size: 20px;
+        }
+      
+        footer h2, footer div {
+          text-align: center;
+          width: 100%;
+        }
+      
+  
+        .hero-cta, .hero-form {
+          width: 100%;
+        }
+        
+        .hero-cta {
+          text-align: center;
+        }
+  
+        .section-title {
+          width: 80%;
+        }
+        
+        .trainer {
+          flex: 0 70%;
+        }
+        
+        .contact-info iframe{
+          flex: 1 100%;
+        }
+      
+  
+    }
+    
+    /* MEDIA QUERY FOR TABLETS AND SMALLER */
+    @media screen and (max-width: 768px) {
+  
+      
+    section {
+      padding: 30px 15px;
+    }
+  
+    .step h3 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .step-text {
+      flex: 100%;  
+    }
+  
+  
+    .service-grid-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    
+      .service-grid-item.basic {
+        grid-column: 1;
+      }
+    
+      .service-grid-item.both {
+        grid-column: 1 / -1;
+      }
+    
+      .service-grid-item.cancel {
+        transform: none;
+        writing-mode: unset;
+        grid-column: 1 / -1;
+        grid-row: -1;
+      }
+
+
+
+  
+    }
+    
+    /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+    @media screen and (max-width: 575px) {
+      .hero-form button {
+          width: 100%;
+        }
+      
+        .section-title {
+          width: 95%;
+        }
+      
+        .intro p {
+          width: 100%;
+        }
+      
+        .trainer {
+          flex: 0 100%;
+        }
+      
+        .contact-info {
+          text-align: center;
+        }
+      
+        .contact-info > * {
+          flex: 0 100%;
+        }
+  
+        .contact-form {
+          order: 3;
+        }
+
+>>>>>>> feature/grid
