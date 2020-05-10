@@ -425,18 +425,25 @@ header h2 {
   /* REACH OUT STYLES END */
 
 
-
-.service-grid-item {
+  .service-grid-item {
+    background-color: orange;
+    border: solid;
+    padding: 1em;
+    color: black;
+  }
 }
 
 .service-grid-container {
-}
-
-
-.grid-container {
-    place-items: <align-items>  <justify-items>;
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
   }
-
+  .grid-container {
+    grid-gap: <grid-row-gap> <grid-column-gap>;
+   }
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 header {
