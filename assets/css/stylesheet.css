@@ -234,7 +234,7 @@
   
   
   
-  .section-title {
+  .section-title  {
   font-size: 48px;
   color: #024e76;
   margin-bottom: 35px;
@@ -337,6 +337,9 @@
   
   }
   
+  .services {
+    text-align: center;
+  }
   
   
   .section-title {
