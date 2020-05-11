@@ -3,6 +3,7 @@
     --primary-color: #fce138;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
+<<<<<<< HEAD
   }
 <<<<<<< HEAD
 
@@ -19,6 +20,9 @@ background-repeat: no-repeat;
 /* apply styles to <header> */
 header {
 =======
+=======
+}
+>>>>>>> feature/aesthetics
   
   
   body {
@@ -28,16 +32,25 @@ header {
   background-repeat: no-repeat;
   /*applly style to <header>*/
   /* Applies 20px to the top and bottom, then 35px to the left and right */
+<<<<<<< HEAD
   }
   
   /* apply styles to <header> */
   header {
 >>>>>>> feature/grid
+=======
+}
+  
+  /* apply styles to <header> */
+  header {
+    z-index: 9999;
+>>>>>>> feature/aesthetics
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+<<<<<<< HEAD
   }
 <<<<<<< HEAD
 
@@ -46,34 +59,58 @@ header {
   
   
 >>>>>>> feature/grid
+=======
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../css/images/flipped-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+  
+>>>>>>> feature/aesthetics
   header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
     color: #fce138;
+<<<<<<< HEAD
   }
 <<<<<<< HEAD
 
 =======
   
 >>>>>>> feature/grid
+=======
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+>>>>>>> feature/aesthetics
   header a {
     text-decoration: none;
     color: #fce138;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   header nav {
     margin: 7px 0;
   }
 
 =======
+=======
+>>>>>>> feature/aesthetics
   
   header nav {
     margin: 7px 0;
   }
   
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
   header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -82,16 +119,22 @@ header {
     list-style: none;
   } 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
   
   
 >>>>>>> feature/grid
+=======
+  
+  
+>>>>>>> feature/aesthetics
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 22px;
+<<<<<<< HEAD
   }
   
 <<<<<<< HEAD
@@ -140,6 +183,20 @@ footer a {
 /* Hero Style Start */
 .hero {
 =======
+=======
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+
+
+>>>>>>> feature/aesthetics
   * {
       margin: 0;
       padding: 0;
@@ -181,13 +238,18 @@ footer a {
   /* Hero Style Start */
   .hero {
     align-items: flex-start;
+<<<<<<< HEAD
 >>>>>>> feature/grid
     background-image: url("../images/flipped-hero-image.jpg");
+=======
+    background-image: url("../css/images/flipped-hero-image.jpg");
+>>>>>>> feature/aesthetics
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+<<<<<<< HEAD
 <<<<<<< HEAD
     align-items: flex-start;
   }
@@ -195,16 +257,26 @@ footer a {
 /*Hero Style End*/
 .hero-form {
 =======
+=======
+    background-attachment: fixed;
+    background-position: 80%;
+>>>>>>> feature/aesthetics
   }
   
   /*Hero Style End*/
   .hero-form {
+<<<<<<< HEAD
 >>>>>>> feature/grid
     background-color: #fce138;
+=======
+
+    background-color: var(--primary-color);
+>>>>>>> feature/aesthetics
     padding: 20px;
     color: #024e76;
     border: solid 3px #024e76;
     margin: 3.5%;
+<<<<<<< HEAD
   }
 <<<<<<< HEAD
 
@@ -220,6 +292,12 @@ footer a {
 
 .form-input {
 =======
+=======
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: 252 225 56px rgba(0, 0, 0, 0.8);
+  }
+>>>>>>> feature/aesthetics
   
   .hero-form h3 {
     font-size: 24px;
@@ -233,7 +311,10 @@ footer a {
   
   
   .form-input {
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
     border: 1px solid var(--secondary-color);
     display: block;
     padding: 7px 15px;
@@ -242,6 +323,7 @@ footer a {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 }
@@ -255,6 +337,19 @@ footer a {
 =======
   
   }
+=======
+    background-color: rgba(255,255,255, 0.75);
+  
+  }
+
+  .form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  }
+
+
+
+>>>>>>> feature/aesthetics
   
   
   .hero-form label {
@@ -262,13 +357,17 @@ footer a {
   }
   
   .hero-form button {
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -278,6 +377,15 @@ footer a {
   
   .hero-cta {
 >>>>>>> feature/grid
+=======
+  }
+
+  .hero-form button:hover {
+    background-color: #39a6b2;  
+  }
+  
+  .hero-cta {
+>>>>>>> feature/aesthetics
     width: 35%;
     text-align: right;
     margin: 3.5%;
@@ -286,18 +394,25 @@ footer a {
     line-height: 1.2;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
   
   
   
 >>>>>>> feature/grid
+=======
+  
+  
+  
+>>>>>>> feature/aesthetics
   .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
     width: 40%;
     margin: 3.5%;
+<<<<<<< HEAD
 <<<<<<< HEAD
   }
 
@@ -308,6 +423,10 @@ footer a {
 .intro p {
 =======
     text-align: justify;
+=======
+    text-align: justify;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+>>>>>>> feature/aesthetics
   }
   
   .intro {
@@ -316,7 +435,10 @@ footer a {
   
   
   .intro p {
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
     /* add this alongside your other declarations */
     margin: 0 auto;
     line-height: 1.7;
@@ -324,6 +446,7 @@ footer a {
     width: 80%;
     font-size: 20px;
     text-align: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -400,6 +523,8 @@ footer a {
 
 
 =======
+=======
+>>>>>>> feature/aesthetics
   }
   
   
@@ -449,26 +574,46 @@ footer a {
   color: #39a6b2;
   font-size: 23px;
   }
+<<<<<<< HEAD
   
   
   
 >>>>>>> feature/grid
+=======
+
+  .step {
+    /* re-add alongside existing declarations */
+    border-bottom: 1px solid #39a6b2;
+  }
+  
+  .step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
+  }
+
+
+>>>>>>> feature/aesthetics
   .trainer {
     flex: 1;
     margin: 20px;
     background: #024e76;
     color: #fce138;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   }
 
 
 =======
+=======
+>>>>>>> feature/aesthetics
   
   }
   
   
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
   .trainers {
     width: 100%;
     margin: 0 auto;
@@ -477,6 +622,7 @@ footer a {
     justify-content: space-around;
     
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -489,6 +635,8 @@ footer a {
 }
 
 =======
+=======
+>>>>>>> feature/aesthetics
   
   
   .trainer img {
@@ -499,16 +647,23 @@ footer a {
   float: right;
   }
   
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
   .trainer-bio {
     padding: 25px;
     line-height: 1.3;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
   
 >>>>>>> feature/grid
+=======
+  
+>>>>>>> feature/aesthetics
   .text-left {
     text-align: left;
   }
@@ -529,18 +684,24 @@ footer a {
   .trainer-bio p {
     font-size: 17px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   }
 
 
 
 =======
+=======
+>>>>>>> feature/aesthetics
   
   }
   
   
   
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
   .section-title {
     font-size: 55px;
     display: inline-block;
@@ -549,6 +710,7 @@ footer a {
     margin-bottom: 35px;
     color: #024e76;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -574,6 +736,8 @@ footer a {
   }
 
 =======
+=======
+>>>>>>> feature/aesthetics
   
   
   /* REACH OUT STYLES START */
@@ -599,21 +763,29 @@ footer a {
     color: white;
   }
   
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
   .contact-info {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
   
 >>>>>>> feature/grid
+=======
+  
+>>>>>>> feature/aesthetics
   .contact-info > * {
     flex: 1;
     margin: 15px;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -621,6 +793,10 @@ footer a {
   
   
 >>>>>>> feature/grid
+=======
+  
+  
+>>>>>>> feature/aesthetics
   .contact-info h3 {
     color: #fce138;
     font-size: 32px;
@@ -638,6 +814,7 @@ footer a {
   }
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
   /* REACH OUT STYLES END */
@@ -649,6 +826,8 @@ footer a {
 
 
 =======
+=======
+>>>>>>> feature/aesthetics
   
   
   /* REACH OUT STYLES END */
@@ -659,7 +838,10 @@ footer a {
   }
   
   
+<<<<<<< HEAD
 >>>>>>> feature/grid
+=======
+>>>>>>> feature/aesthetics
   .contact-form input, .contact-form textarea {
      
     border: 1px solid #024e76;
@@ -669,6 +851,7 @@ footer a {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+<<<<<<< HEAD
     margin-top: 5px
 <<<<<<< HEAD
 
@@ -679,6 +862,18 @@ footer a {
   }
   
 >>>>>>> feature/grid
+=======
+    margin-top: 5px;
+    border-radius: 10px;
+    background: transparent;
+  
+  }
+
+
+.contact-form input:focus, .contact-form textarea:focus {
+background: transparent;
+}
+>>>>>>> feature/aesthetics
   .contact-form button {
       width: 100%;
       border: none;
@@ -687,6 +882,7 @@ footer a {
       text-align: center;
       padding: 15px 0;
       font-size: 16px;
+<<<<<<< HEAD
   }
 
 <<<<<<< HEAD
@@ -809,10 +1005,91 @@ footer a {
 
   }
 =======
+=======
+      border-radius: 10px;
+  }
+
+  .contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+  }
+
+  .checkbox-wrapper input, .radio-wrapper input {
+    opacity: 0;
+  }
+
+  .checkbox-wrapper label, .radio-wrapper label {
+    position: relative;
+    left: 10px;
+    margin: 10px;
+    line-height: 1.6;
+}
+
+
+
+  .checkbox-wrapper label::before, .radio-wrapper label::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: rgba(255, 255, 255, 0.75);  
+    border: 1px solid #024e76;  
+    position: absolute;
+    top: -4px;
+    left: -30px;
+}
+
+.radio-wrapper label::before {
+    border-radius: 50%;
+  }
+
+  .radio-wrapper label::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #024e76;
+    position: absolute;
+    left: -29px;
+    top: -3px;
+    background-image: radial-gradient(circle, #39a6b2, #024e76);
+  }
+  
+  .checkbox-wrapper label::after {
+    content: "";
+    height: 6px;
+    width: 14px;
+    border-left: 2px solid #024e76;
+    border-bottom: 2px solid #024e76;
+    position: absolute;
+    left: -26px;
+    top: 1px;
+    transform: rotate(-58deg);
+  }
+
+
+  .checkbox-wrapper input + label::after, 
+  .radio-wrapper input + label::after {
+    content: none;
+  }
+  
+  .checkbox-wrapper input:checked + label::after, 
+  .radio-wrapper input:checked + label::after {
+    content: "";
+  }
+
+
+>>>>>>> feature/aesthetics
         /* SERVICE STYLES BEGIN */
         .services {
             background: #fce138; 
           }
+<<<<<<< HEAD
+=======
+        
+        .services h2 {
+            text-align: center;
+        }
+>>>>>>> feature/aesthetics
           
           .service-grid-wrapper {
             display: flex;
@@ -872,6 +1149,10 @@ footer a {
       header {
           padding-bottom: 0;
           justify-content: center;
+<<<<<<< HEAD
+=======
+          position: relative;
+>>>>>>> feature/aesthetics
         }
       
         header h1 {
@@ -1002,5 +1283,12 @@ footer a {
         .contact-form {
           order: 3;
         }
+<<<<<<< HEAD
 
 >>>>>>> feature/grid
+=======
+    }
+        
+
+
+>>>>>>> feature/aesthetics
