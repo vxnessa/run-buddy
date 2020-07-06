@@ -25,7 +25,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../css/images/flipped-hero-image.jpg");
+    background-image: url();
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
