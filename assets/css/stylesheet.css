@@ -66,15 +66,31 @@
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
+<<<<<<< HEAD
   header nav ul li a:hover {
     background: #fce138;
     color: #024e76;
     border-radius: 15px;
     text-shadow: none;
   }
+=======
+* {
+      margin: 0;
+      padding: 0;
+}
 
 
+>>>>>>> feature/flexbox
 
+
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+  justify-content: space-between;
+}
+
+<<<<<<< HEAD
   * {
       margin: 0;
       padding: 0;
@@ -107,6 +123,25 @@
   }
   
   * {
+=======
+footer h2 {
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: var(--secondary-color);
+}
+
+* {
+>>>>>>> feature/flexbox
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -143,9 +178,15 @@
     font-size: 24px;
     margin: 0;
   
+<<<<<<< HEAD
   }
   
   .hero-form p {
+=======
+}
+
+.hero-form p {
+>>>>>>> feature/flexbox
     margin: 5px 0 15px 0; 
   }
   
@@ -197,9 +238,15 @@
     font-size: 18px;
     line-height: 1.2;
   }
+<<<<<<< HEAD
   
   
   
+=======
+
+
+
+>>>>>>> feature/flexbox
   .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
@@ -207,6 +254,7 @@
     width: 40%;
     margin: 3.5%;
     text-align: justify;
+<<<<<<< HEAD
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
@@ -216,6 +264,16 @@
   
   
   .intro p {
+=======
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+
+.intro p {
+>>>>>>> feature/flexbox
     /* add this alongside your other declarations */
     margin: 0 auto;
     line-height: 1.7;
@@ -223,6 +281,7 @@
     width: 80%;
     font-size: 20px;
     text-align: center;
+<<<<<<< HEAD
   }
   
   
@@ -236,11 +295,27 @@
   
   .section-title {
   font-size: 48px;
+=======
+}
+
+
+
+.steps {
+  background: var(--primary-color);
+  text-align: center;
+}
+
+
+
+.section-title {
+  font-size: 55px;
+>>>>>>> feature/flexbox
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
+<<<<<<< HEAD
   }
   
   .primary-border{
@@ -281,6 +356,40 @@
   .step:not(:last-child) {
     border-bottom: 1px solid #39a6b2;
   }
+=======
+}
+
+.primary-border{
+  border-color: var(--primary-color);
+}
+
+.secondary-border {
+  border-color: var(--tertiary-color);
+}
+
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+>>>>>>> feature/flexbox
 
 
   .trainer {
@@ -347,6 +456,7 @@
     margin-bottom: 35px;
     color: #024e76;
   }
+<<<<<<< HEAD
   
   
   /* REACH OUT STYLES START */
@@ -362,6 +472,23 @@
   
   
   
+=======
+
+
+/* REACH OUT STYLES START */
+.contact {
+  text-align: center;
+  background: #024e76;
+}
+
+
+.contact h2 {
+  color: #fce138;
+}
+
+
+
+>>>>>>> feature/flexbox
   .contact-info iframe {
   
     height: 400px;
